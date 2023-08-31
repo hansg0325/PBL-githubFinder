@@ -1,0 +1,225 @@
+.header {
+  height: 35px;
+  background-color: #4582EC;
+  border-style: none;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  align-content: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  top: 10px;
+  display: flex;
+  width: 840px;
+  border-radius: 5px;
+}
+
+.inputContainer {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #ADB5BD;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 3px;
+  width: 840px;
+}
+
+#title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#titleDetail {
+  font-size: 16px;
+  color: gray;
+}
+
+#inputText {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  height: 25px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #ADB5BD;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 3px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  height: 250px;
+  width: 830px;
+}
+
+#avatarUrl {
+  height: 160px;
+  width: 160px;
+}
+
+#profileBtn {
+  position: absolute;
+  height: 30px;
+  width: 158px;
+  left: 20px;
+  top: 380px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4582EC;
+  color: white;
+}
+
+.topContainer {
+  display: flex;
+  position: absolute;
+  height: 35px;
+  left: 200px;
+  align-items: center;
+  text-align: center;
+  padding-right: 10px;
+}
+
+#publicRepos {
+  background-color: #4582EC;
+  width: 140px;
+  height: 20px;
+  font-size: small;
+  border-radius: 5px;
+  color: white;
+}
+
+#publicGists {
+  background-color: #ADB5BD;
+  width: 140px;
+  height: 20px;
+  font-size: small;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+}
+
+#followers {
+  background-color: #01B875;
+  width: 140px;
+  height: 20px;
+  font-size: small;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+}
+
+#following {
+  background-color: #19A2B8;
+  width: 140px;
+  height: 20px;
+  font-size: small;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+}
+
+.bottomContainer {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  left: 200px;
+  top: 250px;
+  font-size: 15px;
+
+}
+
+#company {
+  border: solid 1px #ADB5BD;
+  border-radius: 2px;
+  height: 35px;
+  width: 640px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+#blog {
+  border: solid 1px #ADB5BD;
+  border-radius: 2px;
+  height: 35px;
+  width: 640px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+#location {
+  border: solid 1px #ADB5BD;
+  border-radius: 2px;
+  height: 35px;
+  width: 640px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+#createdAt {
+  border: solid 1px #ADB5BD;
+  border-radius: 2px;
+  height: 35px;
+  width: 640px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.latestRepos {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.repoDiv {
+  border: solid 1px #ADB5BD;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  width: 830px;
+}
+
+.repoSpan {
+  font-size: large;
+  color: #4582EC;
+  font-weight: bold;
+  width: 460px;
+}
+
+.starsSpan{
+  background-color: #4582EC;
+  width: 100px;
+  height: 22px;
+  font-size: small;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+  text-align: center;
+}
+.watchersSpan {
+  background-color: #ADB5BD;
+  width: 100px;
+  height: 22px;
+  font-size: small;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.forksSpan {
+  background-color: #01B875;
+  width: 130px;
+  height: 22px;
+  font-size: small;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+  text-align: center;
+}

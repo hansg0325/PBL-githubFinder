@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PBL - github finder</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./user.js"></script>
+</head>
+<body>
+  <div class="header">
+    <span id="headerTitle">GitHub Finder</span>
+  </div>
+  <div class="inputContainer">
+    <span id="title">Search GitHub Users</span>
+    <span id="titleDetail">Enter a username to fetch a user profile and repos</span>
+    <input type="text" name="message" id="inputText" value="">
+  </div>
+  <div class="mainContainer">
+    <div class="profileContainer">
+      <img id="avatarUrl" src="">
+      <button type="button" id="profileBtn" onclick="">View Profile</button>
+    </div>
+    <div class="bottomContainer">
+      <span id="company">company: null</span>
+      <span id="blog">blog: null</span>
+      <span id="location">location: null</span>
+      <span id="createdAt">createdAt: null</span>
+    </div>
+    <div class="topContainer">
+      <span id="publicRepos">public Repos: 0</span>
+      <span id="publicGists">public Gists: 0</span>
+      <span id="followers">followers: 0</span>
+      <span id="following">following: undefined</span>
+    </div>
+  </div>
+  <div class="reposContainer">
+    <h1 class="latestRepos">Latest Repos</h1>
+  </div>
+</body>
+</html>
